@@ -1,0 +1,100 @@
+<!-- 2. Write a HTML/CSS program to develop a static 
+Web Page for Shopping Cart. -->
+
+<!-- Theory:
+The provided HTML code structures a shopping cart page with items 
+displayed in separate sections. Each item includes a header, product 
+details, a counter for quantity adjustment, and a price section. The 
+CSS styles the page with a responsive layout, consistent font family, 
+and spacing for visual appeal. The use of classes in HTML and CSS 
+ensures modularity and easy styling of elements across the page. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="cart-item">
+            <div class="cart-header">
+                <h4>Anarkali Kurta With Palazzo & Dupatta Set</h4>
+            </div>
+            <div class="product-details">
+                <img src="product1.png" alt="Kurta Set">
+                <p>Anarkali Kurta with Embroidered Ethnic motifs, 
+                    V shaped neck & Three-quartered regular sleeves. 
+                    This kurta set consists of kurta, palazzo and a 
+                    dupatta.</p>
+            </div>
+            <div class="counter">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+            <div class="price-section">
+                <p>₹2000.00</p>
+            </div>      
+        </div>
+        
+        <div class="cart-item">
+            <div class="cart-header">
+                <h4>Women Black & White Striped Crepe Top</h4>
+            </div>
+            <div class="product-details">
+                <img src="product2.png" alt="Top">
+                <p>Black and white regular top with vertical stripes,
+                    Round neck & long, cuffed sleeves, made with 
+                    Knitted crepe.</p>
+            </div>
+            <div class="counter">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+            <div class="price-section">
+                <p>₹850.00</p>
+            </div>      
+        </div>
+        
+        <div class="cart-item">
+            <div class="cart-header">
+                <h4>Rose Gold Stone-Studded Drop Earrings</h4>
+            </div>
+            <div class="product-details">
+                <img src="product3.png" alt="Earrings">
+                <p>Rose Gold-plated handcrafted contemporary drop 
+                    earrings, and has artificial stones, Secured with 
+                    a post and back closures</p>
+            </div>
+            <div class="counter">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+            <div class="price-section">
+                <p>₹300.00</p>
+            </div>      
+        </div>
+
+        <div class="checkout-section">
+            <h4>Total: ₹2150.00</h4>
+            <button><b>Checkout</b></button>
+        </div>
+
+    </div>
+</body>
+</html>
+
+<!-- Conclusion:
+By combining HTML for structure and CSS for styling, the shopping cart 
+page is organized and visually appealing. The layout adjusts well to 
+different screen sizes, thanks to responsive design practices. The 
+use of classes and proper structuring enhances code readability and 
+maintenance. Overall, this code exemplifies best practices for 
+creating an effective and attractive shopping cart interface on a 
+website. -->

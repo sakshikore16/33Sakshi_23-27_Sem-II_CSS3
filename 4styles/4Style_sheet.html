@@ -1,0 +1,72 @@
+<!-- 4. Create a external style sheet named as “external_css.css” 
+and provide some styles for h2, hr, p & a tags. Create an html file 
+named as “4Style_sheet.html”
+
+• Include the external style sheet with necessary tag.
+• Include the internal style sheet for body tags & also
+use class name,so that the style can be applied for all tags.
+• Include a <p> tags with inline style sheet. -->
+
+<!-- Theory:
+The HTML code defines a basic webpage with a header containing a 
+navigation menu and a section with headings, paragraphs, and a 
+hyperlink. It also includes internal and external CSS styles for font, 
+color, background, and layout. The external CSS file "external_css.css" 
+is linked to provide additional styling, while inline styles and class 
+selectors are used within the HTML for specific elements. -->
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <title>Style Sheet Example</title>
+      <link rel="stylesheet" href="external_css.css">
+      
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          background-color: #f4f4f4;
+          margin: 0;
+          padding: 0;
+        }
+    
+        .custom-style {
+          font-size: 18px;
+          color: #555;
+        }
+      </style>
+
+    </head>
+
+    <body>
+      <header>
+        <h1>Welcome to our Website</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <section>
+        <h2>This is a Heading</h2>
+        <hr>
+        <p class="custom-style">This is a paragraph with custom style applied using a class.</p>
+        <p style="color: rgb(107, 17, 166);">This is a paragraph with inline style.</p>
+        <a href="#">Click here</a> to visit our website.
+      </section>
+    
+    </body>
+    </html>
+    
+<!-- Conclusion:
+By combining external and internal CSS styles, the webpage achieves 
+consistent visual presentation and maintains separation of concerns 
+between structure (HTML) and style (CSS). The use of class selectors 
+allows for targeted styling of specific elements, enhancing 
+readability and maintainability of the code. Overall, this example 
+demonstrates effective use of HTML and CSS to create a structured and 
+visually appealing webpage. -->

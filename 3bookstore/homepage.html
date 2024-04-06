@@ -1,0 +1,42 @@
+<!-- Design the following static web pages required for an online
+book store web site.
+1) HOME PAGE: The static home page must contain three
+frames.
+2) LOGIN PAGE
+3) CATOLOGUE PAGE: The catalogue page should
+contain the details of all the books available in the web
+site in a table.
+4) REGISTRATION PAGE -->
+
+<!-- Theory:
+The provided HTML code outlines the structure of a bookstore website, 
+featuring sections for book listings, categories, and a search bar. 
+Each book listing includes a title, author, description, and price. 
+CSS is used to style the webpage with a responsive layout, consistent 
+typography, color scheme, and button styles. The use of classes and 
+IDs in HTML allows for targeted styling and interactive elements like 
+dropdown menus and search functionality. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<frameset cols="25%, 50%, *">
+    <frame src="login.html" name="login">
+    <frame src="home.html" name="home">
+    <frame src="registration.html" name="registration">
+</frameset>
+</html>
+
+<!-- Conclusion:
+By integrating HTML for structure and CSS for styling, the bookstore 
+website achieves a professional and user-friendly design. The 
+responsive layout ensures compatibility across different devices, 
+enhancing the user experience. The use of classes, IDs, and semantic 
+HTML elements promotes code organization and readability, 
+facilitating future updates and maintenance. Overall, this code 
+exemplifies best practices for creating an effective and visually 
+appealing online bookstore. -->
